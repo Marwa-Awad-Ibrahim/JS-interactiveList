@@ -1,0 +1,46 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+
+h1, h2{
+    font-family: cursive;
+    font-size: 2rem;
+    color: #B23048;
+    text-align: center;
+}
+
+ul{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-evenly;
+    gap:1rem;
+}
+li{
+    border-radius: 2rem;
+    padding: 0;
+    background-color: beige;
+    max-height: 400px;
+    max-width: 500px;
+    
+}
+img{
+    height: 50%;
+    object-fit: contain;
+    cursor: pointer;
+}
+p{
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+p.hidden {
+    display: none;
+}
